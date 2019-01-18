@@ -1,0 +1,1388 @@
+.content-ad{
+	padding: 0px !important;
+}
+.header-position{
+	position: relative;
+}
+.garages-info .header-car{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	z-index: 1;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+}
+.garages-info .header-car img{
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+.garages-info .header-car .brand-img img{
+	top: 40px;
+}
+.garages-info .header-car .h-subbrand{
+	position: relative;
+	top: 3px;
+	padding-left: 110px;
+	font-style: italic;
+}
+.garages-info .header-car .h-version{
+    padding-left: 138px;
+    margin-top: -15px;
+    font-size: 1.5em;
+}
+.garages-info .footer-car{
+    padding-left: 3px;
+	width: 73%;
+	z-index: 1;
+	font-weight: bold;
+	color: #fff;
+	font-style: italic;
+	position: relative;
+}
+.garages-info .footer-caredit{
+	padding-left: 3px;
+	width: 97%;
+	z-index: 1;
+	position: relative;
+	bottom: 40px;
+}
+.garages-info .footer-caredit .o-version{
+    position: relative;
+    bottom: 60px;
+    left: calc(101% - 0px);
+    background-color: #fff9;
+}
+.garages-info .footer-car p{
+	position: absolute;
+}
+.garages-info .footer-sale{
+	position: relative;
+}
+div.inverserow {
+    margin-right: 9px;
+    margin-left: 3px;
+    color: #333;
+}
+div.s-brand{
+    top: 3px;
+    background-color: #fff9;
+    left: 2px;
+    padding: 0px;
+}
+div.s-subbrand{
+    top: 3px;
+    background-color: #fff9;
+    left: 4px;
+    padding: 0px;
+}
+div.s-model{
+    background: #fff9;
+    float: right;
+    padding: 0px;
+    left: 4px;
+}
+div.s-version{
+    position: absolute;
+    background-color: #fff9;
+    width: 50%;
+    height: 34px;
+}
+p.h-adSale{
+    right: 15px;
+    position: absolute;
+    bottom: 5PX;
+    font-family: "FranklinMedium";
+    color: #084d01;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    box-shadow: 3px 2px 3px 1px #484848;
+    background: #ffffffbd;
+    border: 1px solid #084d0187;
+    border-radius: 7px;
+    padding: 2px 6px;
+}
+p.h-adSale:hover,
+button.h-adSale:hover{
+    box-shadow: 2px 1px 3px 0px #b39a9a;
+}
+button.h-adSale{
+    font-family: "FranklinMedium";
+    color: #084d01;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    box-shadow: 3px 2px 3px 1px #484848;
+    background: #ffffffbd;
+    border: 1px solid #084d0187;
+    border-radius: 7px;
+    padding: 2px 6px;
+    margin-top: 10px;
+}
+.header-menu-auto{
+	display: grid;
+	position: absolute;
+	right: 25px;
+	bottom: 5px;
+}
+.car-name{
+    text-align: left;
+    overflow-wrap: break-word;
+}
+.vignette,
+.vignette-ad{
+	background-position: bottom center;
+	background-size: cover;
+	max-width: 100%;
+}
+.vignette::after {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 80px 40px -30px rgba(0,0,0,0.8), inset 0px -80px 40px -30px rgba(0,0,0,0.8);
+    content: "";
+}
+.vignette-ad::after {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 30px 40px -30px rgba(0,0,0,0.8),
+    inset 0px 50px 30px -20px #084d01, 
+    inset 0px -30px 40px -30px rgba(0,0,0,0.8),
+    inset 0px -50px 30px -20px #084d01;
+    content: "";
+}
+.icons-header-top ul.header-menu-auto{
+	width: auto;
+}
+.icons-header-top ul.nameGarage{
+	margin-bottom: 0px;
+}
+.infogarage-car-top{
+	z-index: 98;
+	padding-left: 0px;
+	min-height: 40px;
+}
+.follow-car{ /*boton de seguir */
+    position: absolute;
+    right: 15px;
+    font-size: 1.4em;
+    z-index: 99;
+}
+.follow-car a:hover{
+	text-decoration: unset;
+}
+.follow-car a img{
+	width: 27px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.menuAuto-w{
+	width: 22px;
+}
+.carrusel-new-content
+{
+	width: 100%;
+}
+.stateFont{
+	font-size: 12px;
+}
+.hheader
+{
+	border-top: 5px solid #ebb424;
+	border-bottom: 5px solid #ebb424;
+}
+.hheader-ad
+{
+	border-bottom: 5px solid #084d01;
+	border-top: 5px solid #084d01;
+}
+@media (min-width: 993px) 
+{
+	.hheader-right{
+	border-right: 5px solid #ebb424;
+	}
+	.hheader-left{
+		border-left: 5px solid #ebb424;
+	}
+	.hheader-right-ad{
+		border-right: 5px solid #084d01;
+	}
+	.hheader-left-ad{
+		border-left: 5px solid #084d01;
+	}	
+}
+@media (max-width: 992px) 
+{
+	.hheader-right{
+	border-right: none;
+	}
+	.hheader-left{
+		border-left: none;
+	}
+	.hheader-right-ad{
+		border-right: none;
+	}
+	.hheader-left-ad{
+		border-left: none;
+	}	
+}
+
+.theader
+{
+	border-top: 5px solid #ebb424;
+}
+.selecposition{
+	position: relative;
+}
+.selecposition::after
+{
+	
+	top: 0;
+}
+.font-little{
+	font-size: 8px;
+}
+.icon-vehicle-condition
+{
+	background-image: url("/img/webpageAVI/Movil_infotraffic/MyCars_Movil_viewport_features_infotraffic/MyCars_Movil_viewport_features_icon_QUALITY_infotraffic.png");
+	background-repeat: no-repeat;
+	background-size: 22px;
+	position: absolute;
+	width: 22px;
+	height: 34px;
+	left: 0px;
+}
+.icon-add
+{
+	background-image: url("/img/webpageAVI/Movil_infotraffic/Profile_Movil_infotraffic/Home_Movil_home_boton_verMAS_infotraffic.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+}
+.row-label
+{
+	margin-left: 23px;
+	width: 85%;
+}
+.carousel-cars{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	background-color: #000;
+}
+.carousel-inner-cars {
+    overflow: inherit !important;
+    max-width: 100%;
+    position: relative;
+}
+.imgCar.item.active {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+img.imgCar.item.active {
+    position: relative;
+    bottom: auto;
+    width: auto !important;
+}
+img.imgCar.item {
+	width: auto !important;
+}
+.carousel-inner-cars .item{
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	text-align: center;
+	max-width: 100%;
+}
+.carousel-inner-cars .item div{
+	text-align: center;
+}
+h2.about{
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 25px;
+    margin: 8px;
+}
+.rowChars{
+	margin: 0px;
+}
+.rowChars .eachCarRow{
+	padding: 0px;
+}
+.rowChars .CarSRow{
+	background-color: #dddddd;
+}
+.rowChars .editLeft{
+	background: #dddddd;
+	min-height: 204px;
+}
+.rowChars .editRight{
+	background: #dddddd;
+}
+div.buy-characteristics{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: center;
+}
+div.buy-characteristics p{
+	white-space: pre-wrap;
+	font-size: 0.8em;
+	text-align: justify;
+	padding: 0px 10px;
+	min-height: 83px;
+}
+@media (min-width: 768px) {
+	.fitAdText{
+	    max-height: 83px;
+	    overflow-y: scroll;
+	}
+}
+div.top-characteristics{
+    padding: 10px;
+    padding-bottom: 1px;
+}
+div.bottom-characteristics{
+	padding: 10px;
+	padding-top: 1px;
+}
+ul.contacto-icons{
+	padding-left: 0px;
+	list-style: none;
+	text-align: center;
+}
+ul.contacto-icons li{
+	display: inline-block;
+	margin: 0px 15px;
+	cursor: pointer;
+}
+ul.contacto-icons li img.ph{
+	width: 20px;
+}
+ul.contacto-icons li img.ml{
+	width: 22px;
+}
+ul.contacto-icons li img.fire{
+	width: 25px;
+}
+ul.contacto-icons li img.fire2 {
+    width: 31px;
+}
+.contactOp{
+    opacity: 0.5;
+}
+div.callDirect:hover,
+div.callDirect:focus{
+	color: #ecd216;
+	text-decoration: none;
+}
+table.moreChars tr td{
+	padding-left: 15px;
+}
+.table-sC{
+	width: 100%;
+}
+.table-sC table {
+    min-width: 100%;
+    margin: 0px auto;
+}
+.table-sC table.characteristics, 
+div.characteristics{
+	background-color: #dddddd;
+}
+div.characteristics {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.table-sC table.characteristics tr.top-line td{
+	padding-top: 11px;
+	padding-bottom: 0px;
+}
+.table-sC table.characteristics tr.bottom-line td{
+	padding-top: 0px;
+	padding-bottom: 11px;
+}
+.table-sC table.characteristics tr td:first-child{
+	padding-left: 25px;
+}
+.table-sC table.characteristics p.stated b,
+b.aliasb{
+	display: block;
+}
+.table-sC table.characteristics img,
+.characteristics img
+{
+	width: 20px;
+}
+.characteristics p{
+	padding-top: 7px;
+}
+.characteristics label{
+    vertical-align: middle;
+    padding-top: 7px;
+}
+.vermas-h:hover{
+	text-decoration: underline;
+}
+.char-icon{
+	width: 23px;
+	position: absolute;
+	left: 10px;
+}
+.char-icon-car{
+	width: 40px;
+	position: absolute;
+	left: 10px;
+}
+.char-icon-v{
+	width: 17px;
+}
+.char-icon-ad{
+    width: 21px;
+    position: absolute;
+    left: -6px;
+    top: 12px;
+}
+.previewImg{
+    height: 80px;
+	overflow: hidden;
+    position: relative;
+    padding-top: 5px;
+	background-color: #000;
+}
+.previewImg ul{
+	list-style: none;
+    padding: 0px;
+    position: absolute;
+    min-width: 100%;
+    display: flex;
+    width: auto;
+    margin: 0px;
+}
+.previewImg ul li{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 70px;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+@media (min-width: 500px){
+	.previewImg .autoSpace{
+		margin: auto;
+	}
+	.carousel-cars {
+    	min-height: 380px;
+    	max-height: 380px;
+	}
+	.carousel-inner-cars {
+	    max-height: 345px !important;
+	    min-height: 345px !important;
+	}
+	.carousel-inner-cars .item {
+	    max-height: 345px;
+	    height: auto;
+	}
+}
+@media (max-width: 499px){
+	.carousel-cars {
+    	min-height: 240px;
+    	max-height: 240px;
+	}
+	.previewImg .autoSpace{
+		margin: 0px 5px;
+	}
+	.carousel-inner-cars{
+	    height: 210px;
+	}
+	.carousel-inner-cars .item{
+	    max-height: 210px;
+	}
+}
+.previewImg .calcSpace{
+	margin: 0px 5px;
+}
+.backImgSlide{
+    position: relative;
+    bottom: 76px;
+    width: 46px;
+}
+.backImgSlide button{
+	position: absolute;
+	background: linear-gradient(to left,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.50) 50%,rgba(0, 0, 0, 0.77) 100%);
+	border: unset;
+	color: #dddddd;
+	font-size: 2em;
+	height: 75px;
+	top: 0px;
+}
+.backImgSlide button:hover{
+	background: linear-gradient(to left,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.60) 50%,rgba(0, 0, 0) 100%);
+	color: #fff;
+}
+.ImgSlide{
+    position: relative;
+    bottom: 76px;
+    width: 46px;
+    float: right;
+}
+.ImgSlide button{
+	float: right;
+	position: absolute;
+	background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.50) 50%,rgba(0, 0, 0, 0.77) 100%);
+	border: unset;
+	color: #dddddd;
+	font-size: 2em;
+	right: 0;
+	height: 75px;
+	top: 0px;
+}
+.ImgSlide button:hover{
+	background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.60) 50%,rgba(0, 0, 0) 100%);
+	color: #fff;
+}
+.rightColum
+{
+	text-align: center;
+	color: #ebb013;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+.leftColumn
+{
+	text-align: center;
+	color: #5b5b5f;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+.colorColumn{
+	position: absolute;
+	padding-top: 6px;
+}
+.charDiv{
+	font-size: 11px;
+}
+.colorDiv{
+	padding-left: 31px;
+}
+.typeDiv{
+	padding-left: 16px;
+}
+.clases-img
+{
+	width: 66px;
+	cursor: pointer;
+}
+.clases-img-colors
+{
+	width:35px;
+}
+.clases-img-trans
+{
+	width: 30px;
+}
+.clases-auto, .colores
+{
+	padding: 17px 5px;
+	color: #5b5b5f;
+	text-decoration: none;
+	cursor: pointer;
+}
+.clases-auto:hover, .colores:hover
+{
+    border-radius: 5px;
+    color: #5b5b5f;
+    text-decoration: none;
+
+}
+.colores
+{
+	width: 60px;
+	float: left;
+}
+.input-plate
+{
+	position: absolute;
+	top: 74px;
+	left: calc(51% - 130px);
+	background: none;
+	border: none;
+	font-family: BebasNeueBlod;
+	font-size: 3em;
+	width: 200px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.td-border-gray
+{
+	border-right: 2px solid #aeaeae;
+}
+.top-gray
+{
+	border-top: 2px solid #aeaeae;
+	padding: 12px 0px 0px 0px;
+}
+.agregar
+{
+	padding: 10px;
+}
+.placa-title{
+    float: left;
+    padding-top: 9px;
+    padding-left: 7px;
+}
+@media (max-width: 320px) {
+	.plate-size{
+		max-width: 93%;
+	}
+}
+@media (max-width: 470px) {
+	.facturas{
+		font-size: 11px;
+	}
+}
+@media (min-width: 389px) {
+	.placa-pad{
+		padding-top: 35px;
+	}
+}
+
+/******************ANUNCIAR****************/
+.textoAd{
+	white-space: pre-wrap;
+}
+.tacometro{
+	background-image: url("/img/webpageAVI/Movil_infotraffic/MyCars_Movil_infotraffic/MyCars_Movil_ViewPort_TAC.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 90px;
+	width: 90px;
+	position: fixed;
+	bottom: 5px;
+	left: calc(50% - 320px);
+	z-index: 100005;
+	background-color: #FFF;
+	border-radius: 50%;
+}
+.tacometro .aguja{
+	height: 33px;
+	position: absolute;
+	bottom: 42px;
+	left: 41px;
+}
+@media(max-width: 767px){
+	.tacometro{
+		left: 5px;
+		bottom: 5px;
+	}
+}
+@media(min-width: 767px) and (max-width: 1024px){
+	.tacometro{
+		left: 192px;
+		bottom: 5px;
+	}
+}
+.table-form{
+	display: table;
+	position: relative;
+}
+.table-form label, .table-form button, .table-form div, .table-form ul, .table-form input, .table-form select{
+	display: table-cell;
+}
+.moneda
+{
+	position: absolute;
+	top: 11px;
+	right: 0;
+}
+.moneda_car{
+    position: absolute;
+    bottom: 2px;
+    right: 15px;
+}
+.featuresAd .form-group label{
+	padding-left: 10px;
+}
+.changes-modal{
+	text-align: center;
+	font-size: 12px;
+	color: #6f8898;
+}
+/*****************************ESTILOS DETALLES********************************/
+.garantias-z{
+	z-index: 10000003 !important;
+}
+.rel-position
+{
+	position: relative;
+}
+ul.namesGandU  li
+{
+	display: inline-block;
+}
+ul.namesGandU  li a
+{
+	text-decoration: none;
+	color: #333;
+}
+ul.followAd{
+    float: right;
+    z-index: 1;
+    position: relative;
+}
+.list-garage .carPersonal {
+    height: 29px;
+    font-size: 1.4em;
+    width: 64%;
+    font-weight: bold;
+}
+.list-garage .CarName {
+    font-size: 1em;
+    width: auto;
+}
+tr.bord-ad td
+{
+	border-top: 6px solid #084d01;
+	border-bottom: 6px solid #084d01;
+	border-left: 1px solid #084d01;
+	border-right: 1px solid #084d01;
+}
+tr.bord-car td
+{
+	border-top: 6px solid #feb103;
+	border-bottom: 6px solid #feb103;
+	border-left: 1px solid #feb103;
+	border-right: 1px solid #feb103;
+}
+tr.bord-car-detail td
+{
+	border-bottom: 1px solid #aeaeae;
+	border-right: 1px solid #aeaeae;
+}
+.tr-height{
+	height: 63px;
+}
+.detailstab-pad{
+	margin-bottom: 0px;
+}	
+@media (min-width: 992px) {
+	.tr-height-last{
+		height: 142px;
+	}
+	.table-height{
+	    height: 291px;
+	    min-height: 291px;
+	}
+}
+@media (max-width: 992px) {
+	.tr-height-last{
+		height: unset;
+	}
+	.table-height{
+	    height: unset;
+	    min-height: unset;
+	}
+}
+.green-bord-top
+{
+	border-top: 6px solid #084d01;
+	border-bottom: 6px solid #084d01;
+}
+.text-ad-green
+{
+	color: #084d01;
+	border: 2px solid #084d01;
+	border-radius: 5px;
+	padding: 3px;
+}
+.text-ad-green:hover{
+    border: 2px solid #009a16;
+    color: #009a16;
+}
+.text-ad-yellow
+{
+	color: #ecb216;
+}
+a.text-ad-yellow:hover
+{
+	color: #c9960e;
+}
+.min-content
+{
+	background-color: #FFF;
+	border: 1px solid #dfdfdf;
+	box-shadow: 2px 2px 10px 0px #434444;
+	margin-left: 215px;
+	margin-bottom: 20px;
+	margin-top: 64px;
+	max-width: 595px;
+}
+div.login-content{
+    margin-top: -95px;
+    border-top: none;
+    box-shadow: 2px 4px 7px 0px #434444;
+    padding: 10px 15px;
+    padding-bottom: 35px;
+    background-color: #FFF;
+    border-left: 1px solid #dfdfdf;
+    margin-left: 215px;
+    margin-bottom: 20px;
+    border-right: 1px solid #dfdfdf;
+    max-width: 595px;
+    text-align: center;
+}
+@media (max-width: 1024px) {
+	div.login-content{
+	    max-width: 100% !important;
+	}
+}
+@media (max-width: 767px) {
+	div.login-content{
+		margin-left: 0px;
+		max-width: 100%;
+	}
+}
+div.login-content p{
+	text-align: center;
+	margin: unset;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+div.login-content img.logo{
+    width: 255px;
+}
+div.login-content b.subtitle{
+    font-size: 1em;
+    text-align: center;
+    margin: 0px;
+}
+@media (min-width: 768px) {
+	.vignette,
+	.vignette-ad{
+		min-height: 285px;
+		max-height: 285px;
+	}
+	.carmenu-topAd{
+		height: 21px;
+	}
+	.ad-header-carmenu{
+		padding: 0px;
+	}
+	.ad-header-carmenu li:last-child{
+	    width: 85px;
+	}
+	.garages-info .header-car .h-subbrand{
+		font-size: 2.2em;
+	}
+	.carmenu-top{
+		height: 21px;
+	}
+	.garages-info .footer-car {
+	    font-size: 2.2em;
+		bottom: 45px;
+	}
+	.cents{
+	    font-size: 15px;
+	    vertical-align: super;
+	}
+	b.addressAd{
+		font-size: 13px;
+	    padding-left: 5px;
+	}
+	p.h-adNegoc {
+		left: 7px;
+		position: absolute;
+		top: 230PX;
+		color: #fff;
+		text-transform: uppercase;
+		opacity: 0.9;
+	}
+	.soldStyle::before{
+		content: 'Marcar como vendido';
+	}
+	.garages-info .footer-caredit .o-version{
+		width: 85%;
+	}
+}
+@media (max-width: 767px){
+	.vignette,
+	.vignette-ad{
+		min-height: 245px;
+		max-height: 245px;
+	}
+    .min-content{
+		margin-left: 0;
+	}
+	.carmenu-topAd{
+		height: 38px;
+	}
+	.ad-header-carmenu{
+		padding-top: 3px;
+	}
+	.ad-header-carmenu li:last-child{
+	    width: 30px;
+	}
+	.ad-header-carmenu li a span{
+		display: none;
+	}
+	.carmenu-top{
+		height: 30px;
+	}
+	b.addressAd{
+	    position: absolute;
+	    width: 82%;
+	    font-size: 11px;
+	    padding-top: 7px;
+	    padding-left: 5px;
+	}
+	p.h-adNegoc {
+		left: 7px;
+		position: absolute;
+		top: 204PX;
+		color: #fff;
+		text-transform: uppercase;
+		opacity: 0.9;
+		font-size: 11px;
+	}
+}
+@media (min-width: 450px) and (max-width: 767px){
+	.garages-info .header-car .h-subbrand{
+		font-size: 1.6em;
+	}
+	.garages-info .footer-car {
+	    font-size: 1.6em;
+	    bottom: 40px;
+	}
+	.cents{
+	    font-size: 12px;
+	    vertical-align: super;
+	}
+	.soldStyle::before{
+		content: 'Marcar vendido';
+	}
+}
+@media (min-width: 450px) {
+	.ad-header-car{
+	    margin: 5px 0px;
+	}
+	.ad-header-car li {
+	    font-size: 1.4em;
+	}
+	.garages-info .footer-caredit .o-version{
+		width: 80%;
+	}
+}
+@media (max-width: 449px){
+	.ad-header-car{
+	    margin: 8px 0px;
+	}
+	.ad-header-car li {
+	    font-size: 1em;
+	}
+	.garages-info .header-car .h-subbrand {
+	    font-size: 1.1em;
+	}
+	.garages-info .header-car img{
+		width: 88px;
+	}
+	.garages-info .footer-car {
+	    font-size: 1.1em;
+	    bottom: 30px;
+	}
+	.cents{
+	    font-size: 10px;
+	    vertical-align: super;
+	}
+	.soldStyle::before{
+		content: 'Vendido';
+	}
+	.garages-info .footer-caredit .o-version{
+		width: 74%;
+	}
+}
+.space-top-bottom
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.img-sell-car
+{
+	position: absolute;
+	top: 25px;
+}
+@media (max-width: 554px) {
+	.address-li
+	{
+		float: right;
+	}
+}
+.m-space
+{
+	margin-top: 10px;
+}
+.text-title-avi-y
+{
+	text-align: center;
+}
+.text-title-avi-ad
+{
+	color: #084d01;
+	text-align: center;
+}
+.text-title-avi-ad b,
+.text-title-avi-y b{
+	display: block;
+}
+.text-title-avi-ad img,
+.text-title-avi-y img{
+	width: 20px;
+}
+.km-format{
+    background: #000;
+	color: #dddddd;
+	font-size: 11px;
+	padding: 2px 3px;
+	border: 1px solid #dddddd;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #feb103;
+    border-radius: 50%;
+    display: inline-block;
+    -moz-outline-radius: 20px;
+	outline: 1px solid #feb103;
+	outline-offset: 2px;
+}
+.dot-ad {
+    height: 25px;
+    width: 25px;
+    background-color: #084d01;
+    border-radius: 50%;
+    display: inline-block;
+    -moz-outline-radius: 20px;
+	outline: 1px solid #084d01;
+	outline-offset: 2px;
+}
+.ficha{
+	height: 23px;
+	margin-top: 23px;
+}
+.big-icon-v
+{
+	background-size: 45px;
+	width: 45px;
+	height: 70px;
+	left: 15px;
+}
+#details-tab td
+{
+	position: relative;
+	text-transform: uppercase;
+	font-size: 0.8em !important;
+}
+#details-tab p
+{
+	margin-bottom: -5px;
+}
+.detailstab-color-gray
+{
+	color: #5b5b5f;
+	font-size: 13px;
+}
+.detailstab-plus{
+	width: 170px !important;
+}
+.detailstab-chars{
+	padding: 5px 2px 2px 30px;
+	color: #5b5b5f;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 5px;
+	height: 25px;
+	width: 110px;
+}
+.mini-icons
+{
+	width:21px;
+}
+.p-title-detail
+{
+	position: absolute;
+	top: 2px;
+	left: 0;
+	text-transform: capitalize;
+}
+.p-subtitle-detail{
+	position: relative;
+	left: -6px;
+	text-transform: capitalize;
+}
+.add-margin
+{
+	margin-left: 6px;
+}
+.icon-size-menu
+{
+	padding: 0px;
+	height: 17px;
+	width: auto;
+}
+.title-com-share
+{
+	padding: 20px;
+}
+.time-ad{
+    color: #888;
+    font-weight: lighter;
+    position: absolute;
+    font-size: 0.9em;
+}
+.btn-conditions
+{
+	padding: 3px 7px;
+	width: auto;
+	box-shadow: 1px 1px 3px 0px #b39a9a;
+	border-radius: 3px;
+}
+.btn-conditions:hover
+{
+	border-radius: 3px;
+	box-shadow: 0px 0px 1px 0px #b39a9a;
+}
+.brand-img{
+	color: #7a7a7a;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: bold;
+}
+.a_t_left{
+	padding: 36px;
+}
+.b_share_navlist
+{
+	left: -120px !important;
+}
+
+.vendido
+{
+	color:red;
+}
+.vendido:hover
+{
+	color: red;
+}
+.vendidoImg{
+	position: absolute;
+	background-image: url("/img/icons/VENDIDO.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 218px;
+	z-index: 20;
+	top: 83px;
+	left: 0px;
+}
+.contacto-modal{
+	padding-top: 0px;
+	margin-top: -15px;
+}
+.contacto
+{
+  background-image: url("/img/webpageAVI/Movil_infotraffic/MyCars_Movil_infotraffic/Home_Movil_ViewPort_iconBoton_Telephone_infotraffic.png");
+  background-repeat: no-repeat;
+  height: 32px;
+  background-size: 28px;
+  text-align: left;
+  padding: 6px 0px 6px 38px;
+  margin: 5px auto;
+}
+.contacto.wa
+{
+  background-image: url("/img/webpageAVI/Movil_infotraffic/MyCars_Movil_infotraffic/Home_Movil_ViewPort_iconBoton_WhatsApp_infotraffic.png");
+  cursor: pointer;
+}
+.contacto.mail
+{
+  background-image: url("/img/webpageAVI/Movil_infotraffic/MyCars_Movil_infotraffic/Home_Movil_ViewPort_iconBoton_eMail_infotraffic.png");
+  cursor: pointer;
+}
+@media (max-width: 355px) {
+	.fontPhone{
+		width: 53% !important;
+	}
+	.fontWA{
+		font-size: 12px;
+	}
+}
+.divAd{
+	padding-left: 7px;
+}
+.textAd{
+	min-width: 96%;
+	max-width: 96%;
+	height: 125px;
+	min-height: 125px;
+	max-height: 125px;
+}
+.payment-check{
+	width: 22px;
+}
+.nopadbott{
+	padding-bottom: 1px !important;
+	position: relative;
+}
+.price_style{
+    position: relative;
+    float: right;
+    top: 12px;
+    padding-right: 15px;
+    color: #084d01;
+}
+.price_img{
+	width: 16px;
+}
+.priceDiv{
+    max-width: 188px;
+}
+.soldStyle{
+	box-shadow: 3px 2px 3px 1px #b39a9a;
+	border-radius: 7px;
+	border: 1px solid #084d0166;
+	background: #fff0;
+	text-transform: uppercase;
+	color: #084d01;
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+    z-index: 99;
+}
+.soldStyle:hover{
+	box-shadow: 2px 1px 3px 0px #b39a9a;
+}
+.pad-top{
+	padding-top: 15px;
+}
+.pad-topp{
+	padding-top: 6px;
+}
+.menu-paddtop{
+	padding-top: 5px;
+	position: relative;
+	min-height: 57px;
+}
+.ad-header-car{
+	list-style: none;
+    width: 200px;
+    position: relative;
+}
+.ad-header-car li{
+	color: #084d01;
+	font-family: FranklinHeavy;
+	display: table-cell;
+}
+.ad-header-carmenu{
+	list-style: none;
+	float: right;
+	margin: 0;
+}
+.ad-header-carmenu li{
+	display: table-cell;
+}
+.ad-header-carmenu li a{
+	color: #333;
+	font-size: 14px;
+}
+.ad-header-carmenu li a:hover{
+	text-decoration: none;
+}
+.ad-header-carmenu li a img{
+	height: 23px;
+    width: auto;
+}
+.ad-header-carmenu li.dropdown ul li{
+	border: unset;
+}
+.ad-header-carmenu li:last-child{
+	text-align: left;
+    white-space: nowrap;
+}
+.lightball-icon{
+    width: 30px;
+    display: block;
+    margin: 0px 44%;
+}
+.name-auto-header{
+	width: 50%;
+}
+@media (max-width: 439px) {
+	.payments tr{
+		font-size: 11px;
+	}
+	.payments tr td:first-child{
+		width: 53%;
+	}
+}
+@media (min-width: 440px) {
+	.payments tr td:first-child{
+		width: 210px;
+	}
+}
+.warnSellCar{
+    color: #c03838;
+   font-size: 12px;
+}
+
+/********EDITAR IMAGENES********/
+.newImgEdit{
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 130px;
+	background-size: contain;
+	padding-top: 0% !important;
+}
+.jointo.login-content{
+	margin: auto;
+	border: none;
+	box-shadow: none;
+	padding: 0px;
+	background-color: transparent;
+	max-width: inherit;
+}
+
+/********EDITAR PORTADA DE AUTO********/
+.editing-car{
+    position: absolute;
+    top: 242px;
+    right: 0;
+    background-color: rgba(255,255,255,.5);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    width: 40px;
+}
+@media (max-width: 767px) {
+	.editing-car{
+		top: 201px;
+	}
+}
+.editing-car label img {
+    width: 29px;
+}

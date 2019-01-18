@@ -1,0 +1,296 @@
+.siguiendo{
+	padding-bottom: 80px !important;
+	padding-left: 32px;
+	padding-right: 36px;
+	box-shadow: 2px 6px 8px 0px #434444 !important;
+	padding-top: 32px;
+	display: none;
+}
+.siguiendo.active{
+	display: block;
+}
+.siguiendo p{
+	display: none;
+}
+.solicitudes{
+	padding-top: 32px !important;
+	padding-bottom: 0px !important;
+	padding-left: 32px;
+	padding-right: 26px;
+}
+.followMenu .menu ul li span{
+	display: inline-block;
+	font-size: 12px;
+}
+.followMenu .followSubmenu{
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+}
+.followMenu .followSubmenu li{
+	display: inline-block;
+	padding: 7px 24px;
+	color: gray;
+	font-size: 18px;
+}
+.followMenu .followSubmenu .notifSt{
+	margin-right: 3%;
+}
+.followMenu .followSubmenu .followSt{
+	margin-left: 3%;
+}
+.followMenu .followSubmenu li:hover,
+.followMenu .followSubmenu .active
+{
+	background: #dfdfdf;
+	cursor: pointer;
+}
+.followMenu .followSubmenu li span{
+	display: inline-block;
+}
+.followMenu .followSubmenu img{
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 45px;
+}
+.followMenu .menu .active{
+	background-color: #999999;
+}
+.followMenu .menu{
+	text-transform: uppercase;
+}
+.followMenu .menu ul{
+	display: table;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+.followMenu .menu ul li{
+	display: table-cell;
+	width: 20%;
+	text-align: center;
+	cursor: pointer;
+}
+.followMenu .menu .wid1{
+	width: 98px;
+}
+.followMenu .menu .wid2{
+	width: 89px;
+}
+.followMenu .menu ul li:hover{
+	background-color: #9b9797;
+}
+.followMenu .menu ul li img{
+	max-width: 40px;
+	border-right: 1px solid #888;
+	padding: 2px;
+	width: 28px;
+}
+.followMenu .menu ul li .followgarages{
+	width: 35px !important;
+}
+@media (max-width: 767px){
+	.followMenu .followSubmenu img{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.followMenu .followSubmenu li{
+		display: inline-block;
+		padding: 7px 17px;
+		color: gray;
+		font-size: 18px;
+	}
+	.followMenu .followSubmenu li span{
+		display: block;
+		font-size: 12px;
+		padding-top: 4px;
+	}
+	.followMenu .menu ul li span{
+		display: none;
+	}
+	.followMenu .menu ul li img {
+	    max-width: 44px;
+	    width: 32px;
+	    border: none;
+	}
+	.followMenu .menu ul li .followgarages{
+	    width: 44px !important;
+	}
+	.siguiendo p{
+		display: inline-block;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-bottom: 5px;
+	}
+}
+.siguiendo .menu2,
+.solicitudes .menu2{
+    text-transform: uppercase;
+    text-align: left;
+	padding-bottom: 11px;
+}
+.solicitudes .menu2 .num,
+.siguiendo .menu2 .num
+{
+	color: #888;
+}
+.reject-transition{
+	opacity: 0;
+}
+.people{
+    padding-bottom: 20px;
+    position: relative;
+}
+.seguidor-top{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.people .seguidor-top a img,
+.publication .publication-header .head-info .personal .unfollow img{
+	height: 14px;
+}
+.follow-icon-login{
+    float: right;
+    padding-top: 4px;
+    height: 18px;
+}
+.people .seguidor-top b{
+	padding-left: 60px;
+}
+.people .seguidor-top b:hover,
+.publication .hovName:hover{
+	color: #ecb216;
+	cursor: pointer;
+	text-decoration:none;
+}
+.people .seguidor-top .time{
+	font-size: 10px;
+	color: #888;
+	text-align: right;
+	float: right;
+}
+.people .seguidor-top .down{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.people .seguidor-top .city{
+	color: #888;
+	font-size: 12px;
+	text-align: left;
+	cursor: none;
+	overflow: hidden;
+	padding-left: 58px;
+}
+.publication .publication-header .head-info .personal .unfollow{
+	float: right;
+	padding-bottom: 2px !important;
+}
+.people .seguidor-top a,
+.publication .publication-header .head-info .personal .unfollow{
+	color: #888;
+	cursor: pointer;
+	float: right;
+	font-size: 10px;
+	padding-top: 5px;
+}
+.people .seguidor-top a:hover,
+.publication .publication-header .head-info .personal .unfollow:hover {
+    text-decoration: none;
+    background: #d1cece80;
+}
+.people hr{
+	border: solid 2px #888;
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+.people .userFollowing{
+	border-radius: 27px;
+	min-height: 54px;
+	max-height: 54px;
+	max-width: 54px;
+	min-width: 54px;
+	position: absolute;
+}
+.people .userFollowing:hover,
+.publication .hovImg:hover,
+.people .imgGarage:hover
+{
+	cursor: pointer;
+	border: 2px solid #ecb216;
+}
+.people .userInGarage{
+	position: absolute;
+	bottom: 18px;
+	border-radius: 27px;
+	min-height: 30px;
+	max-height: 30px;
+	max-width: 30px;
+	min-width: 30px;
+	left: 28px;
+	border: 2px solid #fdfdfd;
+}
+.people .imgGarage{
+	position: absolute;
+	bottom: 23px;
+	border-radius: 27px;
+	min-height: 55px;
+	max-height: 55px;
+	max-width: 55px;
+	min-width: 55px;
+	left: -7px;
+}
+.publication .goToPublication{
+	color: #ecb216;
+	bottom: 18px;
+	position: relative;
+	right: 0;
+	text-decoration: none;
+}
+.publication .unfollow{
+	color: #888;
+	bottom: 18px;
+	position: relative;
+	right: 0;
+	text-decoration: none;
+	cursor: pointer;
+}
+.publication .unfollow:hover{
+	color: #000;
+}
+.publication .goToPublication:hover{
+	color: #000;
+}
+.publication .bottom{
+    padding-bottom: 13px;
+}
+.people.seemore{
+	border: 1px solid #a1a1a1;
+	padding: 10px;
+	cursor: pointer;
+	border-left: none;
+	border-right: none;
+}
+.people.seemore:hover{
+	background-color: #fafafa; 
+}
+.publication.seemore{
+	padding: 10px 10px 10px 93px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.publication.seemore:hover{
+	background-color: #fafafa; 
+}
+.followRequest{
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+  	-ms-transition:opacity 0.2s;
+  	-o-transition:opacity 0.2s;
+    transition: opacity 0.2s;
+}

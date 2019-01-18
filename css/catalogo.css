@@ -1,0 +1,246 @@
+.border-left{
+    border-left:2px solid #eaeaea;
+}
+
+.img-thumbnail {
+    background-color: #fff0;
+    border: 1px solid #fff0;
+}
+.img-thumbnail:hover {
+    background-color: #ffd36a;
+    border: 1px solid #ffd36a;
+}
+.img-thumbnail:active{
+    background-color: #FFC748;
+    border: 1px solid #fff0;
+}
+.outline{
+    min-height: 103px;
+    text-align: center;
+}
+.navbar-fixed-top{
+    margin-bottom: 0px;
+}
+
+.top{
+    position: relative;
+}
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+.negativ-top
+{
+    top: -1px !important;
+}
+
+#header {
+    background-image: url("/img/ENCABEZADO-DE-CATALOGO.png");
+    background-repeat: no-repeat;
+    background-size: 90% auto !important;
+    width: 90%;
+    height: 415px;
+    margin: 0% 8%;
+}
+
+.tableByBrand th{
+    background-color: #383839;
+    color:  rgb(235,194,20);
+    text-align: center;
+    font-size: 1.2em;
+}
+.tableByBrand td{
+    text-align: center;
+}
+.tableByBrand table th{
+    background-color: #fafafa;
+    color: #383839;
+    text-align: center;
+    font-size: 1.1em;
+}
+.tableByBrand table .modelCell{
+    background-color: #fafafa;
+    color:  rgb(235,194,20);
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.slide-body {
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    margin: 0% 7%;
+    background-image: url("/img/FONDO-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 86%;
+    height: 359px;
+    outline: 8px solid #fff;
+    outline-offset: -17px;
+}
+
+.input-group-search {
+    margin: 2% 26%;
+}
+
+.carousel-indicators{
+    bottom: -5px !important;
+}
+
+.carousel-caption {
+    color: #f6ebcb;
+    text-align: right;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.67);
+
+}
+
+.table-scroll
+{
+    min-width: 100%;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+}
+
+.hover-pointer
+{
+    cursor: pointer;
+}
+
+.font-10px
+{
+    color: #969696;
+    font-size: 9px !important;
+}
+
+@media (min-width: 1001px) and (max-width: 1199px){
+  .c-size0 {
+    bottom: -39px;
+    max-width: 70%;
+    margin-left: 140px;
+  }
+}
+@media (min-width: 690px) and (max-width: 1000px){
+  .c-size1 {
+    bottom: -45px;
+    max-width: 70%;
+    margin-left: 75px;
+  }
+}
+@media (min-width: 515px) and (max-width: 689px){
+  .c-size2 {
+    bottom: -87px;
+    max-width: 70%;
+    margin-left: 60px;
+  }
+}
+@media (min-width: 360px) and (max-width: 514px){
+  .c-size3 {
+    bottom: -120px;
+    max-width: 70%;
+    margin-left: 54px;
+  }
+}
+@media (min-width: 280px) and (max-width: 359px){
+  .c-size4 {
+    bottom: -140px;
+    max-width: 70%;
+    margin-left: 35px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 364px){
+  .cap-size {
+margin-bottom: -50px;
+  }
+}
+
+@media (min-width: 365px) and (max-width: 426px){
+  .cap-size1 {
+    margin-right: -30px;
+    margin-bottom: -33px;
+  }
+}
+@media (min-width: 427px) and (max-width: 495px){
+  .cap-size2 {
+    margin-right: -38px;
+    margin-bottom: -20px;
+  }
+}
+
+@media (min-width: 496px){
+  .cap-size3 {
+    margin-right: -44px;
+
+  }
+}
+@media (max-width: 414px){
+    .inline-logos{
+        padding-top: 6%;
+    }  
+    .carrusel .img-carrusel img {
+        max-width: 100%;
+        padding: 5px;
+        min-height: 72px;
+        max-height: 72px;
+    }
+}
+.ad{
+    background-color: #ebb728;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff !important;
+    border-radius: 20px;
+    font-size: 1.3em;
+    width: 100%;
+    border: none;
+}
+.ad:hover
+{
+    text-decoration: none;
+    background-color: #c89c25;
+}
+
+.no-decoretion
+{
+    text-decoration: none;
+}
+
+.space{
+    margin-bottom: 20px;    
+    margin-top: 15px;
+}
+.asterisk{
+    color: #ecb214;
+    font-weight: bold;
+}
+/**Estilos para subir archivo***/
+
+#dropzone{
+    background-image: url("/img/icons/upload-cars.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.next-btn{
+    color: #000;
+    background-color: #ecb216;
+    border-radius: 9px;
+    width: 90px;
+    padding: 7px;
+}
+.next-btn:hover{
+    background-color: #ecbd3f;
+}
+.next-btn:focus{
+    background-color: #e9af13;
+}
+.next-padd{
+    padding: 10px;
+}

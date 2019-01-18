@@ -1,0 +1,70 @@
+/******Carrussel**********/
+.carrusel{
+	min-height: 100px;
+	max-height: 100px;
+	margin-bottom: 5px;
+}
+.carrusel div{
+	height: 100px;
+	text-align: center;
+
+}
+.carrusel .carrusel-content{
+	padding: 0 2%;
+	height: 100px;
+}
+.carrusel .carrusel-content .img-carrusel{
+	display: none;
+	cursor:pointer;
+}
+.carrusel .carrusel-content .img-carrusel.selected{
+	background-color: rgba(255,255,255,.2);
+}
+/*.carrusel .carrusel-content .img-carrusel:hover{
+	background-color: rgba(0,0,0,.1);
+}
+.carrusel .carrusel-content .img-carrusel:active{
+	background-color: rgba(0,0,0,.2);
+}*/
+.carrusel .img-carrusel img{
+	max-width:100%;
+	padding: 5px;
+	min-height: 90px;
+	max-height: 90px;
+}
+.carrusel .carrusel-nav{
+	min-width: 11%;
+	max-width: 11%;
+	display: inline-block;
+	padding: 32px 0px;
+	font-size: 2em;
+	cursor: pointer;
+	color: #ddd;
+}
+
+.carrusel .carrusel-left{
+	float: left;
+	background: linear-gradient(to right,rgba(50,50,50,.8),transparent);
+}
+
+.carrusel .carrusel-right{
+	float: right;
+	background: linear-gradient(to right,transparent,rgba(50,50,50,.8));
+}
+.carrusel .carrusel-left:hover{
+	float: left;
+	background: linear-gradient(to right,rgba(20,20,20,.8),transparent);
+}
+
+.carrusel .carrusel-right:hover{
+	float: right;
+	background: linear-gradient(to right,transparent,rgba(20,20,20,.8));
+}
+.carrusel .img-carrusel.active{
+	display: inline-block;
+}
+
+.inline-block{
+	display: inline-block !important;
+}
+/******Fin Carrussel**********/

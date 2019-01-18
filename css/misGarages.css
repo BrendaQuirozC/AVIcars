@@ -1,0 +1,1133 @@
+@media (max-width: 450px) {
+	.garage-img{
+		width: 87px;
+	}
+	.icons-garage{
+    	max-width: 32px !important;
+    	margin: 6px auto;
+	}
+	.go-back {
+	    border-radius: 32px;
+	    border: 0px;
+	    background-color: #b0b0b0;
+	    color: white;
+	    height: 31px;
+	    font-size: 15px;
+	}
+	.go-back-black{
+	    border-radius: 32px;
+	    border: 0px;
+	    color: white;
+	    height: 31px;
+	    font-size: 15px;
+	}
+	.title-garage {
+ 	   font-size: 1em;
+	}
+	.addCAr{
+    	background-color: #ecb214;
+    	border-radius: 21px;
+    	padding: 16px;
+    	margin-left: 15%;
+    	margin-right: 15%;
+	}
+}
+@media (min-width: 451px){
+	.garage-img{
+			max-width: 50% !important;
+		}
+	.icons-garage{
+	    max-width: 32% !important;
+	    margin: 6px auto;
+	}
+	.go-back{
+    	border-radius: 30px;
+    	border: 0px;
+    	background-color: #b0b0b0;
+	    color: white;
+	    min-height: 32px;
+	}
+	.go-back-black{
+    	border-radius: 30px;
+    	border: 0px;
+	    color: white;
+	    min-height: 32px;
+		margin: 5px;
+	}
+	.addCAr{
+    	background-color: #ecb214;
+    	border-radius: 21px;
+    	padding: 16px;
+    	margin-left: 29%;
+		margin-right: 29%;
+	}
+	.title-garage {
+ 	   font-size: 1.2em;
+	}
+}
+@media (min-width: 988px){
+	.add-garage{
+	    max-width: 104%;
+		padding-top: 10px;
+	}
+}
+@media (max-width: 987){
+	.add-garage{
+	    max-width: 67px;
+	}
+
+}
+@media (max-width: 304px){
+	.icon-add-car {
+	    max-width: 34px;
+	    padding: 2px;
+	}
+}
+@media (min-width: 305px){
+	.icon-add-car{
+		max-width: 44px;
+		padding: 4px;
+	}
+}
+.flex{
+	display: flex;
+}
+.text-bold{
+	font-weight: bold;
+}
+.no-marg{
+    margin: 0 8px 0 !important;
+}
+.changes{
+	display: block;
+    font-weight: bold;
+}
+.advise{
+	color: black;
+}
+.advise:hover{
+	color: #ecb216;
+}
+
+
+/*Box hovers*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+@media (max-width: 334px){
+	.img-logo{
+    	max-width: 107px !important;
+	}
+}
+@media (min-width: 335px){
+	.img-logo{
+		max-width: 138px !important;
+	}
+}
+.active-perfil:hover{
+	border: 3px solid #ebc216;
+	transition: border .2s ease-in
+}
+
+.active-heart:hover{
+	background-image: url("/img/webpageAVI/Movil_infotraffic/Home_Movil_infotraffic/favoritos_llanta_fire.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.active-followers:hover{
+	background-image: url("/img/webpageAVI/Movil_infotraffic/Home_Movil_infotraffic/Home_Movil_ViewPort_Movil_downme.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.f-heart{
+	width: 39px; 
+	max-width: 100%; 
+	padding: 4px;
+}
+.gar-option{
+    height: 0px !important;
+    margin-left: -42px !important;
+}
+.form-style-box{
+    box-shadow: inset 0px -2px 0px #4c4d4c;
+    border: 0px solid #fff0;
+    background-color: rgba(1,1,1,0);
+    border-radius: 0px;
+    font-size: 11px;
+    min-height: 80px;
+	text-align: left;
+}
+.form-style-box:focus {
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075),3px 3px 3px rgba(233, 201, 28, 0.6);
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075),3px 3px 3px rgba(233, 201, 28, 0.6);
+}
+.active-menu{
+	background: #98979766;
+}
+.dropzone-garage
+{
+	border: none;
+}
+.hr-garages{
+    border: solid 2px #888;
+    margin: 0px;
+}
+.ul-garage {
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    float: right;
+    margin: 0px;
+    display: flex;
+}
+.li-garage {
+    display: inline-block;
+    height: 20px;
+    padding: 0px 3px;
+}
+@media (min-width: 550px) {
+	.icon-trash{
+		background: url("/img/icons/AVIcars_Site_CarEDITOR_tache_150px_infotraffic.png");
+	    background-size: 97%;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		position: absolute;
+		width: 130px;
+		border-radius: 1px;
+		height: 130px;
+		opacity: 0.7;
+	}
+	.icon-trash-car{
+	    margin-left: 5%;
+		top: 0px;
+	}
+	.editVehiclePhotos .camara{
+	    width: 90%;
+	    opacity: 0.7;
+	}
+	.editVehiclePhotos img{
+		width: 100%;
+		min-height: 87px;
+	}
+}
+@media (max-width: 549px) {
+	.icon-trash{
+		background: url("/img/icons/AVIcars_Site_CarEDITOR_tache_150px_infotraffic.png");
+	    background-size: 56%;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		position: absolute;
+		width: 130px;
+		border-radius: 1px;
+		height: 130px;
+		opacity: 0.7;
+	}
+	.editVehiclePhotos .camara{
+	    width: 100%;
+	    opacity: 0.7;
+	}
+}
+@media (max-width: 549px) and (min-width: 400px) {
+	.icon-trash-car{
+	    margin-left: 20%;
+		top: 36px;
+	}
+	.editVehiclePhotos img{
+		width: 100%;
+		min-height: 63px;
+	}
+}
+@media (max-width: 399px) {
+	.icon-trash-car{
+	    margin-left: 5%;
+		top: 36px;
+	}
+	.editVehiclePhotos img {
+	    padding-top: 23px;
+	    min-height: 68px;
+	}
+}
+.icon-trash:hover{
+	opacity: 1;
+}
+.font-trash
+{
+	background-color: #dadada80;
+	height: 130px;
+	margin-top: 0px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.icon-trash-auto{
+    right: 20px;
+}
+
+/*********************************************/
+/*******Estilo de autos detalles**************/
+.advertisement-options p{
+		margin: 15px 0px;
+}
+.margin-main{
+	margin-bottom: 15px;
+}
+.publicar{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.publicar textarea{
+	border: none;
+	resize: none;
+	box-shadow: none;
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+}
+.publicar .icon{
+	background: transparent;
+	border: none;
+	color: #555;
+}
+.imagen-publicacion{
+	height:150px !important;
+	max-width: 100%;
+	margin: 0px auto;
+}
+.editVehiclePhotos{
+	display: inline-block;
+	width: 100%;
+}
+.editVehiclePhotos .camaraButton{
+	text-align: center;
+}
+.editVehiclePhotos .btn-header{
+    padding-top: 8px;
+}
+.editVehiclePhotos p a{
+	font-size: 10px;
+	text-align: center;
+	padding: 5px 7px !important;
+}
+.carImgLabel{
+	padding: 7px;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+.carImgLabel:hover{
+	background: #dbdbdbcc;
+	border-radius: 10px;
+}
+/******Termina estilos de autos detalles*******/
+/*********************************************/
+
+.list-garage{
+  position: relative;
+}
+.list-garage .list-garage-header{
+  position: relative;
+  height: 54px;
+}
+.list-garage .list-garage-header .head-info{
+  padding-left: 68px;
+  width: 100%;
+}
+.list-garage .list-garage-header ul{
+  list-style: none;
+  padding: 0px;
+  position: relative;
+  float: right;
+  margin: 0px;
+  display: flex;
+}
+.list-garage .list-garage-header ul li{
+  display: inline-block;
+  height: 20px;
+  padding: 0px 3px;
+}
+.list-garage .list-garage-header ul li span{
+  font-family: "FranklinBook";
+  font-size: 10px;
+}
+.list-garage .list-garage-header ul li span.stopColaborating{
+  	background-color: #FF5D5D;
+	color: #FFF;
+	padding: 2px 5px;
+	font-size: 1.1em;
+}
+
+.list-garage .list-garage-header ul li span.colaboratingTag{
+  	background-color: #003998;
+	color: #FFF;
+	padding: 2px 5px;
+	font-size: 1.1em;
+}
+
+.list-garage .list-garage-header ul li span.ownerTag{
+  	background-color: #009839;
+	color: #FFF;
+	padding: 2px 5px;
+	font-size: 1.1em;
+}
+
+.list-garage .list-garage-header ul li img{
+	padding: 0px;
+	height: 17px;
+	width: auto;
+}
+.list-garage .list-garage-header .personal{
+	font-family: "FranklinHeavy";
+	height:26px;
+	font-size: 1em;
+	width:100%;
+	padding: 6px 23px;
+}
+.list-garage .list-garage-header .adPersonal {
+    height: 29px;
+    font-size: 1.4em;
+    width: 100%;
+    padding: 6px 23px;
+    font-weight: bold;
+}
+.garage-title{
+    padding-top: 29px;
+    padding-left: 3px;
+}
+.garage-title-ad{
+    padding-left: 0px;
+    margin: 0px;
+}
+.ellipsis-title
+{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.list-garage .list-garage-header hr{
+	border: solid 2px #888;
+	width: 97%;
+	margin: 0px;
+	margin-left: 7px;
+}
+.list-garage .list-garage-header .time{
+	font-family: "FranklinBook";
+	height:26px;
+	font-size: .8em;
+	width:100%;
+	padding: 5px 15px;
+}
+.list-garage .list-garage-header .AdName{
+    font-size: 1em;
+    width: 100%;
+    padding: 8px 23px;
+}
+.list-garage .list-garage-header .adPersonal span:hover,
+.list-garage .list-garage-header .AdName span:hover{
+	color: #ecb216;
+	cursor: pointer;
+}
+.list-garage .list-garage-header .img-profile{
+	position: absolute;
+    width: 44px;
+	height: 29px;
+	bottom: 3px;
+	left: 20px;
+	border-radius: 4px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.list-garage .list-garage-header .sin-avatar{
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    bottom: 4px;
+    left: 21px;
+}
+.img-garage{
+	background-image: url("/img/webpageAVI/Movil_infotraffic/MyGarages_Movil_infotraffic/MyGarages_Movil_boton_GarageX_infotraffic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.list-garage .list-garage-body{
+  	padding: 5px;
+  	text-align: justify;
+}
+.list-garage .list-garage-body .gallery{
+  	width: 100%;
+}
+.header .car-garage{
+	position: relative;
+	margin-top: 0px;
+	padding: 10px 15px;
+}
+.header .carousel{
+	height: 400px;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	background-color: #333;
+	border-bottom: 1px solid #DDD;
+}
+.header .carousel .carousel-indicators{
+	bottom: -35px !important;
+}
+
+.header .carousel .carousel-inner{
+	height: 400px;
+}
+.header .carousel .carousel-inner .item{
+	height: 100%;
+	vertical-align: middle;
+}
+.header .carousel .carousel-inner .item.active{
+	display: flex;
+}
+.header .carousel .carousel-inner .item img{
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+	cursor: pointer;
+}
+.table-header{
+	border-bottom: 5px solid #ebb424;
+	border-top: 5px solid #ebb424;
+	display: inline-block;
+	width: 100%;
+}
+.table-header table{
+
+	min-width: 100%;
+	margin: 0px auto;
+}
+.table-header table td{
+	width: 50%;
+	font-family: FranklinHeavy;
+	text-align: center;
+}
+.table-header table tr:nth-child(1){
+	border-bottom: 1px solid #ebb424;
+}
+.table-header table tr:nth-child(2){
+	border-top: 1px solid #ebb424;
+}
+.table-header table td:nth-child(1){
+	border-right: 1px solid #ebb424;
+}
+.table-header table td:nth-child(2){
+	border-left: 1px solid #ebb424;
+}
+.header-list.auto-header ul{
+	margin-top: 0px;
+}
+.car{
+	position: relative;
+	float: none;
+	padding: 0px 15px;
+	display: inline-block;
+}
+.car .car-header{
+	position: relative;
+    height: 54px;
+}
+.car .car-info{
+	padding-left: 100px;
+	width: 100%;
+}
+.car .car-header .car-img{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.car .car-header .car-trash{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.car .car-header .header-info{
+    padding-left: 100px;
+	width: 100%;
+}
+.car .car-header .personal{
+	font-family: "FranklinHeavy";
+	height: 26px;
+	font-size: 1em;
+	width: 100%;
+	padding: 5px 15px;
+}
+.car .car-header a{
+	color: #333;
+	text-decoration: none;
+}
+.car .car-header hr{
+	border: solid 2px #888;
+	width: 100%;
+	margin: 0px;
+}
+.car .car-header ul{
+	list-style: none;
+	padding: 0px 30px;
+	position: relative;
+	float: right;
+	margin: 0px;
+	margin-top: 20px;
+	display: flex;
+}
+.car .car-header ul li{
+	display: inline-block;
+	height: 20px;
+	padding: 0px 3px;
+	font-size: 0.8em;
+}
+.car .car-header ul li img{
+	padding: 0px;
+	height: 17px;
+	width: auto;
+}
+
+/**slider modal**/
+.mySlide{
+	display: none;
+}
+.prevSlide, .nextSlide{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.nextSlide{
+	right: 0;
+ 	border-radius: 3px 0 0 3px;
+}
+.prevSlide:hover,
+.nextSlide:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+@media (max-width: 767px){
+	.header .car-garage{
+		position: relative;
+		margin-top: 54px;
+		padding: 10px 15px;
+	}
+}
+@media (max-width: 510px){
+	.header .carousel{
+		height: 240px;
+	}
+	.header .carousel .carousel-indicators{
+		bottom: -35px !important;
+	}
+
+	.header .carousel .carousel-inner{
+		height: 240px;
+	}
+}
+td.multi-input{
+	display: table-row;
+}
+td.multi-input select,td.multi-input input{
+	display: table-cell;
+	width: auto
+}
+#img-to-upload-car .cr-boundary, #img-to-upload-car .cr-resizer{
+	max-height: 100%;
+	max-width: 100%;
+}
+.newGarageImg{
+    border-radius: 85px;
+    min-height: 170px;
+    max-height: 170px;
+    max-width: 170px;
+    min-width: 170px;
+    margin: auto;
+    background-image: url("/img/webpageAVI/Movil_infotraffic/MyGarages_Movil_infotraffic/avatar_default.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.editGarageAvatarModal {
+    position: absolute;
+    bottom: 65px;
+    left: 130px;
+    border: none;
+    z-index: 1001;
+    width: 168px;
+    text-align: center;
+}
+.editGarageAvatarModal .camera-icon {
+    width: 100px;
+    opacity: 0.4;
+}
+.editGarageAvatarModal .camera-icon:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.seeAd{
+	color: #7b776a;
+	cursor: pointer;
+	font-size: 15px;
+}
+.seeAd:hover{
+	color: #ecb216;
+}
+.modalNewAccount{
+	margin-top:20px;
+}
+#modalSellSeguros .modal-dialog{
+	width: 750px;
+	font-family: "ComfortaaRegular";
+}
+#modalSellSeguros .modal-dialog .modal-content{
+	width: 100%;
+	max-width: 100%;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body{
+	padding: 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body img.promo{
+	width: 50%;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body img.promo-mv{
+	display: none;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal{
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-title{ 
+    background-color: #ffac00;
+    color: #FFF;
+    padding: 20px 20px 5px 20px;
+    font-size: 2.5em;
+    font-family: "ComfortaaBold";
+    text-align: center;
+    line-height: 1;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul{
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li{
+    display: inline-block;
+    background-color: #919191;
+    padding: 5px 10px;
+    font-family: "ComfortaaBold";
+    font-size: 1.2em;
+    position: relative;
+    margin: 0px 9px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li img{
+    max-height: 21px;
+    width: auto;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li:first-child{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li:last-child{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li.active{
+    background-color: #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li .top-first{
+    position: absolute;
+    top: 0px;
+    right: -14px;
+    border-top: 9px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-bottom: 9px solid #919191;
+    border-left: 7.5px solid #919191;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li.active .top-first{
+    border-bottom: 9px solid #ffac00;
+    border-left: 7.5px solid #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li .bottom-first{
+    position: absolute;
+    bottom: 0px;
+    right: -14px;
+    border-top: 9px solid #919191;
+    border-left: 7.5px solid #919191;
+    border-bottom: 9px solid transparent;
+    border-right: 7.5px solid transparent;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li.active .bottom-first{
+    border-top: 9px solid #ffac00;
+    border-left: 7.5px solid #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li .top-second{
+    position: absolute;
+    top: 0px;
+    left: -14px;
+    border-bottom: 9px solid transparent;
+    border-left: 7.5px solid transparent;
+    border-top: 9px solid #919191;
+    border-right: 7.5px solid #919191;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li.active .top-second{
+    border-top: 9px solid #ffac00;
+    border-right: 7.5px solid #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li .bottom-second{
+    position: absolute;
+    bottom: 0px;
+    left: -14px;
+    border-bottom: 9px solid #919191;
+    border-right: 7.5px solid #919191;
+    border-top: 9px solid transparent;
+    border-left: 7.5px solid transparent;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul li.active .bottom-second{
+    border-bottom: 9px solid #ffac00;
+    border-right: 7.5px solid #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.progress{
+    background-color: #ffac00;
+    height: 12px;
+    border-radius: unset;
+    margin: 10px 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.progress .progress-bar{
+    background-color: #919191;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal hr{
+    border: 2px solid #ffac00;
+    margin: 2px 10px;
+    padding: 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal hr.first{
+    border: 2px solid #919191;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal p.legend{
+    font-family: "ComfortaaRegular";
+    font-size: 1em;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal p.advise{
+    font-family: "ComfortaaBold";
+    font-size: 1.2em;
+    margin: 0px 10px;
+    text-align: center;
+    color: #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal p.advise a{
+	text-decoration: underline;
+	color: #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal p.advise a:hover{
+	text-decoration: underline;
+	color: #ffac00;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer{
+	margin: 15px 10px 0px 10px;
+	position: relative;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul{
+	padding: 0px;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    display: table;
+    width: 100%;
+    height: 46px
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li{
+	display: table-cell;
+	background-color: transparent;
+	border-radius: none;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li button{
+	background-color: #919191;
+	padding: 5px 10px;
+	border: 1px solid #919191;
+	color: #FFF;
+	width: 100px;
+	height: 46px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:first-child button{
+	position: absolute;
+	top: 0px;
+	left: 14px;
+	background-color: #848484;
+	border: 1px solid #848484;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:last-child button{
+	position: absolute;
+	top: 0px;
+	right: 14px;
+	background-color: #313131;
+	border: 1px solid #313131;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:first-child .top-first{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 12.5px solid transparent;
+    border-left: 7.5px solid transparent;
+    border-bottom: 12.5px solid #848484;
+    border-right: 7.5px solid #848484;
+    right: unset;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:first-child .bottom-first{
+    position: absolute;
+    top: unset;
+    left: 0px;
+    border-bottom: 12.5px solid transparent;
+    border-left: 7.5px solid transparent;
+    border-top: 12.5px solid #848484;
+    border-right: 7.5px solid #848484;
+    right: unset;
+    bottom: 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:first-child .top-second{
+    position: absolute;
+    top: 0px;
+    left: 114px;
+    border-bottom: 12.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-top: 12.5px solid #848484;
+    border-left: 7.5px solid #848484;
+    right: unset;
+    bottom: unset;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:first-child .bottom-second{
+    position: absolute;
+    bottom: 0px;
+    left: 114px;
+    border-top: 12.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-bottom: 12.5px solid #848484;
+    border-left: 7.5px solid #848484;
+    right: unset;
+    top: unset;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:last-child .top-first{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top: 12.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-bottom: 12.5px solid #313131;
+    border-left: 7.5px solid #313131;
+    left: unset;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:last-child .bottom-first{
+    position: absolute;
+    top: unset;
+    right: 0px;
+    border-bottom: 12.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-top: 12.5px solid #313131;
+    border-left: 7.5px solid #313131;
+    left: unset;
+    bottom: 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:last-child .top-second{
+    position: absolute;
+    top: 0px;
+    right: 114px;
+    border-bottom: 12.5px solid transparent;
+    border-left: 7.5px solid transparent;
+    border-top: 12.5px solid #313131;
+    border-right: 7.5px solid #313131;
+    left: unset;
+    bottom: unset;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .promo-modal-footer ul li:last-child .bottom-second{
+    position: absolute;
+    bottom: 0px;
+    right: 114px;
+    border-top: 12.5px solid transparent;
+    border-left: 7.5px solid transparent;
+    border-bottom: 12.5px solid #313131;
+    border-right: 7.5px solid #313131;
+    left: unset;
+    top: unset;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .step{
+	display: none;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .step.active{
+	display: block;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.form-group{
+    position: relative;
+    margin-bottom: 10px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.selectdiv:after{
+    top: 7px;
+    right: 15px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.selectdiv{
+	padding: 0px 15px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.checkbox{
+    margin-top: 0px;
+    font-family: "ComfortaaRegular";
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal div.checkbox label{
+    font-family: "ComfortaaRegular";
+    font-size: 0.9em;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal .continue-with{
+	padding: 0px 15px;
+	font-family: "ComfortaaRegular";
+	font-size: 0.9em;
+	display: inline;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul.icons-login-continue{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul.icons-login-continue li{
+	padding: 0px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul.icons-login-continue li img{
+	max-height: 27px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul.icons-login-continue li .fb-login-button{
+    border-radius: 50px;
+    height: 27px;
+    width: 27px;
+    top: 0px;
+    right: 0px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul.icons-login-continue li .fb-login-button iframe{
+    width: 27px !important;
+    height: 27px !important;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal ul.icons-login-continue li .g-signin2{
+	top: 0px;
+	right: 0px;
+	width: 27px;
+	height: 27px;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal label{
+    margin: 0px;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-family: "ComfortaaBold"
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.gracias{
+	padding: 35px 15px;
+	text-align: center;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.gracias p{
+    font-family: "ComfortaaRegular";
+    font-size: 1.5em;
+}
+#modalSellSeguros .modal-dialog .modal-content .modal-body div.gracias button{
+    padding: 5px 15px;
+    background-color: #ffac00;
+    border: 1px solid #ffac00;
+    font-size: 1.5em;
+    color: #FFF;
+    font-family: "ComfortaaBold";
+    border-radius: 10px;
+}
+@media (max-width: 796px){
+	#modalSellSeguros .modal-dialog{
+		max-width: 100%;
+		height: 548px;
+		width: 374px;
+		margin: 10px auto;
+	}
+	#modalSellSeguros .modal-dialog .modal-content{
+		height: 100%;
+	}
+	#modalSellSeguros .modal-dialog .modal-content .modal-body{
+		/*display: inline;*/
+	}
+	#modalSellSeguros .modal-dialog .modal-content .modal-body img.promo{
+		display: none;
+	}
+	#modalSellSeguros .modal-dialog .modal-content .modal-body img.promo-mv{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+	    display: block;
+	    z-index: 1;
+	    height: 548px;
+	    -moz-animation: reduceToLeft 0.25s ease-in 5s forwards;
+	    -webkit-animation: reduceToLeft 0.25s ease-in 5s forwards;
+	    -o-animation: reduceToLeft 0.25s ease-in 5s forwards;
+	    animation: reduceToLeft 0.25s ease-in 5s forwards;
+	    -webkit-animation-fill-mode: forwards;
+	    animation-fill-mode: forwards;
+	}
+	#modalSellSeguros .modal-dialog .modal-content .modal-body div.promo-modal{
+	    width: 100%;
+	    position: relative;
+	    top: unset;
+	    right: unset;
+
+	}
+	@keyframes reduceToLeft {
+	    to {
+	        left: calc(0px - 100%);
+	        overflow:hidden;
+	        visibility:hidden;
+	        width: 0px;
+	    }
+	}
+	@-webkit-keyframes reduceToLeft {
+	    to {
+	        left: calc(0px - 100%);
+	        visibility:hidden;
+	        overflow:hidden;
+	        width: 0px;
+	    }
+	}
+}
