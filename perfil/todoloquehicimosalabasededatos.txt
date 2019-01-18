@@ -1,0 +1,19 @@
+CREATE TABLE c_avi_car_img_type (c_avi_car_img_type_id tinyint(3) unsigned AUTO_INCREMENT not null, c_avi_car_img_type_name varchar(23), PRIMARY KEY (c_avi_car_img_type_id));
+
+INSERT INTO c_avi_car_img_type(c_avi_car_img_type_name) VALUES ('Vista frontal'), ('Vista trasera'), ('Vista izquierda'), ('Vista derecha'),('Otro');
+
+ALTER TABLE `a_avi_car_img` ADD a_avi_car_img_type TINYINT(3) UNSIGNED NOT NULL DEFAULT '5';
+
+ALTER TABLE a_avi_car_img ADD CONSTRAINT fk_a_avicar_img_type FOREIGN KEY (a_avi_car_img_type) REFERENCES c_avi_car_img_type(c_avi_car_img_type_id); 
+
+create table c_avi_car_detail (c_avi_car_detail_id tinyint(3) unsigned not null AUTO_INCREMENT, c_avi_car_detail_name varchar(31), PRIMARY KEY(c_avi_car_detail_id));
+
+alter table i_avi_account_car add i_avi_account_car_detail tinyint(3) unsigned;
+
+alter table i_avi_account_car add constraint fk_i_avi_account_car_detail FOREIGN KEY (`i_avi_account_car_detail`) REFERENCES c_avi_car_detail(c_avi_car_detail_id);
+
+INSERT INTO c_avi_car_detail(c_avi_car_detail_name) VALUES('Recuperado de robo'),('Reconstru&iacute;do'), ('Verificado'),('Legalizado'); 
+
+ALTER TABLE c_class add `c_class_icons_socialnet` varchar(42);
+
+\img\webpageAVI\Movil_infotraffic\MyCars_Movil_viewport_features_infotraffic
